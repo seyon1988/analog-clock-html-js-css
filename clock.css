@@ -1,0 +1,14 @@
+#head-inner-1{
+    text-align: center;
+    background-color: #56945c;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: "Freestyle Script", cursive;
+
+}
+#head-outer-1{
+    border: 2px #56945c dashed;
+}
