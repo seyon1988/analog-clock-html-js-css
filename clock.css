@@ -93,6 +93,9 @@
 
 
 
+/*
+Change Numbers as Dots "."
+Below CSS will put dots on circle border
 #hour-03{
     margin-left: 199px;
     margin-top: 90px;
@@ -140,4 +143,55 @@
 #hour-04{
     margin-left: 185px;
     margin-top: 141px;
+}
+ */
+
+
+#hour-03{
+    margin-left: 189px;
+    margin-top: 93px;
+}
+#hour-02{
+    margin-left: 175px;
+    margin-top: 49px;
+}
+#hour-01{
+    margin-left: 143px;
+    margin-top: 15px;
+}
+#hour-12{
+    margin-left: 96px;
+    margin-top: 3px;
+}
+#hour-11{
+    margin-left: 50px;
+    margin-top: 16px;
+}
+#hour-10{
+    margin-left: 18px;
+    margin-top: 48px;
+}
+#hour-09{
+    margin-left: 5px;
+    margin-top: 93px;
+}
+#hour-08{
+    margin-left: 19px;
+    margin-top: 141px;
+}
+#hour-07{
+    margin-left: 53px;
+    margin-top: 171px;
+}
+#hour-06{
+    margin-left: 97px;
+    margin-top: 185px;
+}
+#hour-05{
+    margin-left: 143px;
+    margin-top: 172px;
+}
+#hour-04{
+    margin-left: 176px;
+    margin-top: 139px;
 }
