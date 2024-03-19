@@ -1,0 +1,241 @@
+body{
+    /*background-color: black;*/
+}
+#head-inner-1{
+    text-align: center;
+    background-color: #56945c;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: "Freestyle Script", cursive;
+
+}
+#head-outer-1{
+    border: 2px #56945c dashed;
+}
+#clock-dial{
+    border: 1px double rgba(86, 148, 92, 0.5);
+    padding: 1px;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#clock-inner-dial{
+    width: 200px;
+    height: 200px;
+    border: 1px double rgb(86, 148, 92);
+    border-spacing: 30px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+#clock-center{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    //border: 2px #56945c double;
+    border: 3px rgba(86, 148, 92, 0.75) double;
+    /*border-radius: 50%;*/
+    margin-top: 94px;
+
+    margin-left:  94px;
+    z-index: 1000;
+}
+#inner-center{
+    background-color: rgba(86, 148, 92, 0.75);
+    width: 100%;
+    height: 100%
+}
+.hour{
+    position: absolute;
+    font-size: 10px;
+    color: #56945c;;
+    font-weight: bolder;
+    font-family: "Microsoft JhengHei UI Light", sans-serif;
+}
+
+
+
+/*
+Change Numbers as Dots "."
+Below CSS will put dots on circle border
+#hour-03{
+    margin-left: 199px;
+    margin-top: 90px;
+}
+#hour-02{
+    margin-left: 185px;
+    margin-top: 41px;
+}
+#hour-01{
+    margin-left: 149px;
+    margin-top: 4px;
+}
+#hour-12{
+    margin-left: 99px;
+    margin-top: -10px;
+}
+#hour-11{
+    margin-left: 49px;
+    margin-top: 4px;
+}
+#hour-10{
+    margin-left: 12px;
+    margin-top: 41px;
+}
+#hour-09{
+    margin-left: -1px;
+    margin-top: 90px;
+}
+#hour-08{
+    margin-left: 12px;
+    margin-top: 141px;
+}
+#hour-07{
+    margin-left: 48px;
+    margin-top: 177px;
+}
+#hour-06{
+    margin-left: 98px;
+    margin-top: 190px;
+}
+#hour-05{
+    margin-left: 149px;
+    margin-top: 177px;
+}
+#hour-04{
+    margin-left: 185px;
+    margin-top: 141px;
+}
+ */
+
+
+#hour-03{
+    margin-left: 189px;
+    margin-top: 93px;
+}
+#hour-02{
+    margin-left: 175px;
+    margin-top: 49px;
+}
+#hour-01{
+    margin-left: 143px;
+    margin-top: 15px;
+}
+#hour-12{
+    margin-left: 95px;
+    margin-top: 3px;
+}
+#hour-11{
+    margin-left: 50px;
+    margin-top: 16px;
+}
+#hour-10{
+    margin-left: 18px;
+    margin-top: 48px;
+}
+#hour-09{
+    margin-left: 5px;
+    margin-top: 93px;
+}
+#hour-08{
+    margin-left: 19px;
+    margin-top: 137px;
+}
+#hour-07{
+    margin-left: 53px;
+    margin-top: 171px;
+}
+#hour-06{
+    margin-left: 97px;
+    margin-top: 185px;
+}
+#hour-05{
+    margin-left: 143px;
+    margin-top: 172px;
+}
+#hour-04{
+    margin-left: 176px;
+    margin-top: 139px;
+}
+
+
+
+#minute-hand-wrapper{
+    margin-top:30px;
+    margin-left:30px;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    /*background-color: rgba(185, 185, 185, 0.5);*/
+    /*border-radius: 50%;*/
+}
+
+#minute-hand{
+    position: relative;
+}
+
+#minute-hand .hand {
+    width: 2px;
+    height: 70px;
+    background-color: #207396;
+    margin-top: 0px;
+    margin-left: 69px;
+    position: absolute;
+}
+
+
+
+#hour-hand-wrapper{
+    margin-top:50px;
+    margin-left:50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /*background-color: transparent ;*/
+    border-radius: 50%;
+}
+
+#hour-hand{
+    position: relative;
+}
+
+#hour-hand .hand {
+    width: 2px;
+    height: 50px;
+    background-color: #ff3e3e;
+    /*background-color: #5dc2c2;*/
+    margin-top: 0px;
+    margin-left: 49px;
+    position: absolute;
+}
+
+
+
+#second-hand-wrapper{
+    margin-top:40px;
+    margin-left:40px;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    /*background-color: #b9b9b9;*/
+    border-radius: 50%;
+    z-index: 900;
+}
+
+#second-hand{
+    position: relative;
+}
+
+#second-hand .hand {
+    width: 2px;
+    height: 60px;
+    background-color: #82c5a8;
+    /*background-color: #5dc2c2;*/
+    margin-top: 0px;
+    margin-left: 59px;
+    position: absolute;
+}
