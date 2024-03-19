@@ -1,3 +1,6 @@
+body{
+    /*background-color: black;*/
+}
 #head-inner-1{
     text-align: center;
     background-color: #56945c;
@@ -13,12 +16,20 @@
     border: 2px #56945c dashed;
 }
 #clock-dial{
+    border: 1px double rgba(86, 148, 92, 0.5);
+    padding: 1px;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#clock-inner-dial{
     width: 200px;
     height: 200px;
-    border: 2px #56945c double;
+    border: 1px double rgb(86, 148, 92);
+    border-spacing: 30px;
     border-radius: 50%;
     margin: 0 auto;
-    margin-top: 20px;
     position: relative;
 }
 #clock-center{
